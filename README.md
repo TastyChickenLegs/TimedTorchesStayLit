@@ -13,22 +13,15 @@
 I wanted my torches to turn on at night and off during the day.  I also did not want to fuel them.
 
 ### Configuration
+![Settings Image](https://i.ibb.co/XCpf9Zh/menutt.png)
 
 
-<b>If you leave the settings alone, torches will turn off at 7:30am and turn on at 4:30pm and require NO fuel.</b>
-
-<b>To Configure if the server locks the config and forces users to have the same settings</b>
-
-- ServerConfig Locked - locks the config files so all clients have the same config and cannot change. Default true
 
 The config file is located in "<GameDirectory>\Bepinex\config" (You need to start the game at least once, with the mod installed to create the config file).
 
-<b>To view or add items this mod affects:  </b>
 
-- AffectedFireplaceSources - List of objects to be affected by the mod (see below for list of supported objects). By default vanilla torches are added.
-
-<b>To configure the timer:</b>
- 
+### To configure the timer:
+ _______
 - OnTime - Time of day when torches should turn ON. (The default is set to 4.30pm in-game time)
 - OffTime - Time of day when torches should turn OFF. (The default is set to 6.30am in-game time)
 
@@ -40,7 +33,7 @@ The config file is located in "<GameDirectory>\Bepinex\config" (You need to star
 Note: If OnTime and OffTime is set to the same value, for example 0 and 0 the fireplaces listed in AffectedFireplaceSources will burn 24/7.
 
 The config file is located in "<GameDirectory>\Bepinex\config" (You need to start the game with the mod installed for the config file to be created).
-
+_______
 ### List of supported objects:
   
 |Config Option|Definition
