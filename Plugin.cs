@@ -46,23 +46,27 @@ namespace TimedTorchesStayLit
 
         public void Awake()
         {
+            
+            _configEnabled = config("", "Mod Enabled", true, "Sets the mod to be enabled or not.");
+            if (!_configEnabled.Value)
+                return;
+
             context = this;
             _serverConfigLocked = TimedTorchesStayLitMain.context.config("", "Lock Configuration", Toggle.On,
                 "If on, the configuration is locked and can be changed by server admins only.");
             _ = ConfigSync.AddLockingConfigEntry(_serverConfigLocked);
 
             _configVerifyClient = config("", "Verify Clients", true, "Enable this to turn on the client verification and version checks.");
-            _configEnabled = config("", "Mod Enabled", true, "Sets the mod to be enabled or not.");
-
-            //_configNexusID = config("Basic", "NexusID", 2027, "Nexus mod ID for 'Nexus Update Check' mod compatibility.");
-            //_configVerifyClient = config("Basic Settings", "Verify Clients", false, "Enable this to turn on the client verification and version checks.");
-
+    
+            
+            
             //Generate the Configs
             Configs.Generate();
             GogetTime();
             harmony.PatchAll();
 
             SetupWatcher();
+            
         }
 
         private void Update()

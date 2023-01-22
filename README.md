@@ -1,6 +1,8 @@
 ﻿# Timed Torches Stay Lit
 
 ## - By TastyChickenLegs
+
+[Chat with me on Discord](https://discord.com/users/TastyChickenLegs#4818)
  
 - Turn on your torches using a configured timer and keep them lit
 - Server Sync with ability to turn off version check
@@ -84,3 +86,14 @@ Version 1.0.0
 - Intial release of mod - complete rewrite of TimedTorches_Fixed.
 - Original Timed Torches mod was by Gurrlin.  Listed here for credit as this was originally his idea.
 
+##	Now for the shameless plug
+
+> ### My Other Mods:
+>>* [No Smoke Stay Lit](https://valheim.thunderstore.io/package/TastyChickenLeg/NoSmokeStayLit/)
+>>* [No Smoke Simplified](https://valheim.thunderstore.io/package/TastyChickenLegs/NoSmokeSimplified/)
+>>* [Honey Please](https://valheim.thunderstore.io/package/TastyChickenLegs/HoneyPlease/)
+>>* [Automatic Fuel](https://valheim.thunderstore.io/package/TastyChickenLeg/AutomaticFuel/)
+>>* [Forsaken Powers Plus](https://valheim.thunderstore.io/package/TastyChickenLeg/ForsakenPowersPlus/)
+>>* [Recycle Plus](https://valheim.thunderstore.io/package/TastyChickenLeg/RecyclePlus/)
+>>* [Blast Furnace Takes All](https://valheim.thunderstore.io/package/TastyChickenLeg/BlastFurnaceTakesAll/)
+>>* [Timed Torches Stay Lit](https://valheim.thunderstore.io/package/TastyChickenLeg/TimedTorchesStayLit/)
