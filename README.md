@@ -68,6 +68,11 @@ Start the game.
 
 ### Version Information
 
+Version 1.2.1
+
+- fix for firepits not going out when buried underground
+- fix for torches not turning off when out of fuel if configured to take fuel
+
 Version 1.2.0
 
 - Completely rewritten 
