@@ -18,10 +18,11 @@ namespace TimedTorchesStayLit.Patches
             static void Postfix(Fireplace __instance, ref string __result, ref ZNetView ___m_nview, ref string ___m_name)
             {
 
-                if  ((Configs.ConfigChecks(__instance.name)) && !Configs.configAllowAddingFuel.Value)
+                if  (Configs.ConfigFuel(__instance.name))
                 {
                     __result = Localization.instance.Localize(___m_name + "\n <color=yellow>No Fuel Required</color>" + "\n Timed Torches Mod");
-                }//"\n[<color=yellow><b>1-8</b></color>] Use Item");
+                }
+
             }
         }
         //if allow adding fuel show the interface with fuel left
@@ -32,9 +33,8 @@ namespace TimedTorchesStayLit.Patches
             static bool Prefix(Fireplace __instance, ref bool __result)
             {
 
-                if  (Configs.ConfigChecks(__instance.name))
-                    {
-                    if (!Configs.configAllowAddingFuel.Value)
+               
+                    if (Configs.ConfigFuel(__instance.name))
                     {
                         __result = false;
                         return false;
@@ -46,10 +46,6 @@ namespace TimedTorchesStayLit.Patches
                         return true;
                     }
 
-
-                }
-                __result = true;
-                return true;
             }
         }
     }

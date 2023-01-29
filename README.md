@@ -4,6 +4,7 @@
 
 [Chat with me on Discord](https://discord.com/users/TastyChickenLegs#4818)
  
+- Can now individually control Stay Lit and On Timers - See image below
 - Turn on your torches using a configured timer and keep them lit
 - Server Sync with ability to turn off version check
 - Can put on the client or the server or both
@@ -15,7 +16,7 @@
 I wanted my torches to turn on at night and off during the day.  I also did not want to fuel them.
 
 ### Configuration
-![Settings Image](https://i.ibb.co/XCpf9Zh/menutt.png)
+![Settings Image](https://i.ibb.co/1Z68pBL/staylit.png)
 
 
 
@@ -49,7 +50,15 @@ _______
 |fe_piece_brazierceiling01_timer | Allow timer for Hanging brazier
 |fe_piece_jackoturnip_timer | Allow timer for Jack-o-turnip
 |fe_custom_instance_timer | Enable Timers for items added by other mods
-|keepOnInRain | Keep fires lit even when raining and wet
+|fe_piece_walltorch_lit  | Wall Torch Stay Lit
+|fe_piece_groundtorch_lit  | Metal Torch Stay Lit
+|fe_piece_groundtorch_wood_lit | Standing wood torch Stay Lit
+|fe_piece_groundtorch_green_lit | Green Torch Stay Lit
+|fe_piece_groundtorch_blue_lit | Blue Torch Stay Lit
+|fe_piece_brazierfloor01_lit  | Floor Brazier Stay Lit
+|fe_piece_brazierceiling01_lit | Ceiling Brazier Stay Lit
+|fe_piece_jackoturnip_lit | Jackoturnip Stay Lit
+|fe_custom_instance_lit | Custom Items Stay Lit
 |configOnTime Hours and Mins  | Convert desired time to military time (24hr) and /24.  Use the new slider for super simple config
 |configOffTime Hours and Mins | Convert desired time to military time (24hr) and /24.  Use the new slider for super sipmle config
 |configAlwaysOnInDarkBiomes | Always On In Dark Biomes or storming
@@ -67,6 +76,12 @@ Extract DLL from zip file into "<GameDirectory>\Bepinex\plugins"
 Start the game.
 
 ### Version Information
+
+Version 1.3.0
+
+- Added the ability to individually control Stay Lit and On Timers
+
+
 
 Version 1.2.1
 
