@@ -14,7 +14,7 @@ namespace TimedTorchesStayLit
     {
         private readonly Harmony harmony = new Harmony("Tastychickenlegs.TimedTorchesStayLit");
         internal const string ModName = "TimedTorchesStayLit";
-        internal const string ModVersion = "1.3.0";
+        internal const string ModVersion = "1.3.2";
         internal const string Author = "Tastychickenlegs";
         private const string ModGUID = Author + "." + ModName;
         private static string ConfigFileName = ModGUID + ".cfg";

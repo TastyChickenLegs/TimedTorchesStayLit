@@ -1,4 +1,4 @@
-﻿# Timed Torches Stay Lit
+# Timed Torches Stay Lit
 
 ## - By TastyChickenLegs
 
@@ -76,6 +76,19 @@ Extract DLL from zip file into "<GameDirectory>\Bepinex\plugins"
 Start the game.
 
 ### Version Information
+
+Version 1.3.2
+
+- Updated to newest Valheim patch
+
+
+
+Version 1.3.1
+
+
+- No changes.  Version bump to match Thunderstore
+
+
 
 Version 1.3.0
 
